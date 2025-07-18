@@ -86,37 +86,19 @@ Treemap for Patient Distribution by Age Group.
 Calculated Column: Age Group (in patients table) for demographic segmentation.
 
 # ⚙️ Tools & Techniques
-Tool
+Power BI Desktop : Report creation, visual design, and data modeling.
 
-Purpose
+Power Query (M) : Data cleaning, transformation (e.g., date format consistency, handling null values, converting cost fields to numeric).
 
-Power BI Desktop
+DAX: Advanced KPIs, measures (e.g., Total Room Charges, Total Revenue, Net Revenue), time intelligence (YoY, YTD), and custom calculated columns (Duration of Stay (Days), Primary Department, Age Group).
 
-Report creation, visual design, and data modeling.
+Relationships: Establishing a robust star schema across 8 tables for seamless cross-filtering.
 
-Power Query (M)
+Slicers: Dynamic filtering by Date, City, Provider, Department, Diagnosis, Procedure, Race, Age Group.
 
-Data cleaning, transformation (e.g., date format consistency, handling null values, converting cost fields to numeric).
+Visualizations: Diverse chart types (Cards, Line, Bar, Donut, Scatter, Treemap) for effective data communication.
 
-DAX
-
-Advanced KPIs, measures (e.g., Total Room Charges, Total Revenue, Net Revenue), time intelligence (YoY, YTD), and custom calculated columns (Duration of Stay (Days), Primary Department, Age Group).
-
-Relationships
-
-Establishing a robust star schema across 8 tables for seamless cross-filtering.
-
-Slicers
-
-Dynamic filtering by Date, City, Provider, Department, Diagnosis, Procedure, Race, Age Group.
-
-Visualizations
-
-Diverse chart types (Cards, Line, Bar, Donut, Scatter, Treemap) for effective data communication.
-
-Data Quality
-
-Implementing DAX logic to handle data quality issues like negative durations in stay.
+Data Quality: Implementing DAX logic to handle data quality issues like negative durations in stay.
 
 # 🎯 Business Impact
 With this solution, healthcare executives and operational managers can:
